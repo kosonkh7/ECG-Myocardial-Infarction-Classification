@@ -1,6 +1,8 @@
 # ECG-Myocardial-Infarction-Detection
 PTB-XL Dataset을 활용한 1D-CNN 기반 심근경색 감지 모델입니다. <br>
+
 데이터셋 출처: https://physionet.org/content/ptb-xl/1.0.1/ <br>
+
 데이터 상세 설명: https://www.nature.com/articles/s41597-020-0495-6 <br>
 
 ***
