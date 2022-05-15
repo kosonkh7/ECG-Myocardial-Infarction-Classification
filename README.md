@@ -1,5 +1,5 @@
 # ECG-Myocardial-Infarction-Detection
-PTB-XL Dataset을 활용한 1D-CNN 기반 심근경색 감지 모델입니다. <br>
+PTB-XL Dataset(심전도 데이터)를 활용한 1D-CNN 기반 심근경색 감지 모델입니다. <br>
 
 데이터셋 출처: https://physionet.org/content/ptb-xl/1.0.1/ <br>
 
