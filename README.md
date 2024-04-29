@@ -1,6 +1,16 @@
 # ECG-Myocardial-Infarction-Detection
 PTB-XL Dataset(심전도 데이터)를 활용한 1D-CNN 기반 심근경색 감지 모델입니다. <br>
 
+심근경색(Myocardial Infarction, MI)은 심장혈관이 혈전, 연축 등의 원인에 의해 갑자기 막혀서 심장 근육이 손상되는 질환입니다.<br>
+
+심근경색의 조기 진단은 심근 조직에 더 큰 손상을 방지할 수 있기에 생존율 향상에 중요한 역할을 합니다.<br>
+
+심전도(Electrocardiogram; ECG)는 심근경색 검사의 기본입니다. 심근경색의 경우 특징적인 심전도 패턴이 있어 감별진단과 함께 치료 방법 결정에도 중요하므로 반드시 이뤄집니다.<br>
+
+1D-CNN(Convolutional Neural Network)은 시간적 특징을 추출하는데 용이한 구조를 가지고, 비교적 적은 계산 비용을 요구하기에, 심전도와 같은 신호 데이터 분류 연구에 널리 쓰입니다.<br>
+
+본 연구에서는 1D-CNN을 이용하여 심전도 데이터로부터 심근경색을 감지하는 모델을 제안합니다.<br>
+
 데이터셋 출처: https://physionet.org/content/ptb-xl/1.0.1/ <br>
 
 데이터 상세 설명: https://www.nature.com/articles/s41597-020-0495-6 <br>
