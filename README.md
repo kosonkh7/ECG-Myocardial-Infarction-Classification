@@ -110,11 +110,17 @@ ptbxl<br>
 
 ![image](https://github.com/kosonkh7/ECG-Myocardial-Infarction-Detection/assets/83086978/5d3739f2-6499-4ace-b18b-9454d28e33d3)
 
-5개의 1D CNN Block과 2개의 Fully Connected Layer로 설계하였다.
+5개의 1D CNN Block과 2개의 Fully Connected Layer로 설계하였다.<br>
+
+학습 : 검증 : 테스트 = 7 : 2 : 1 비율로 데이터를 나누었다.<br>
 
 ![image](https://github.com/kosonkh7/ECG-Myocardial-Infarction-Detection/assets/83086978/f424f974-4ddc-4f5f-88c9-2a6011da56d3)
 
-학습은 200 에포크 진행하였고, 조기종료 조건을 설정하였다.
+학습은 200 에포크 진행하였고, 조기종료 조건을 설정하였다.<br>
+
+val_loss 기준 90 에포크부터 과대적합이 진행되는 것을 확인할 수 있었고,<br>
+
+학습 결과 테스트셋 기준으로 약 91%의 정확도를 기록하였다.
 
 test_acc: 0.9096686244010925 <br>
 test_loss: 0.20646625757217407 <br>
