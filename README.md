@@ -108,6 +108,16 @@ ptbxl<br>
 
 ## Modeling and Evaluation
 
+![image](https://github.com/kosonkh7/ECG-Myocardial-Infarction-Detection/assets/83086978/5d3739f2-6499-4ace-b18b-9454d28e33d3)
+
+5개의 1D CNN Block과 2개의 Fully Connected Layer로 설계하였다.
+
+![image](https://github.com/kosonkh7/ECG-Myocardial-Infarction-Detection/assets/83086978/f424f974-4ddc-4f5f-88c9-2a6011da56d3)
+
+학습은 200 에포크 진행하였고, 조기종료 조건을 설정하였다.
+
+test_acc: 0.9096686244010925 <br>
+test_loss: 0.20646625757217407 <br>
 
 
 
